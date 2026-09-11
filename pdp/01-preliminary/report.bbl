@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{rosenbloom}
+Paul~S. Rosenbloom.
+\newblock A world-championship-level othello program.
+\newblock {\em Artificial Intelligence}, 19(3):279--320, 1982.
+
+\bibitem{lee}
+Kai-Fu Lee and Sanjoy Mahajan.
+\newblock The development of a world class othello program.
+\newblock {\em Artificial Intelligence}, 43(1):21--36, 1990.
+
+\bibitem{buro}
+Michael Buro.
+\newblock Logistello: A strong learning othello program.
+\newblock Technical report, NEC Research Institute, 1997.
+
+\bibitem{Browne2014}
+Cameron Browne.
+\newblock Bitboard methods for games.
+\newblock {\em ICGA Journal}, 37(2):67--84, June 2014.
+
+\bibitem{moriarty}
+David~E. Moriarty and Risto Miikkulainen.
+\newblock Discovering complex othello strategies through evolutionary neural
+  networks.
+\newblock {\em Connection Science}, 7(3-4):195--209, 1995.
+
+\bibitem{cherry}
+Kevin~Anthony Cherry.
+\newblock An intelligent othello player combining machine learning and game
+  specific heuristics.
+\newblock Master's thesis, Louisiana State University, 2011.
+
+\end{thebibliography}

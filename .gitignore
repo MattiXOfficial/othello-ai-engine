@@ -1,0 +1,37 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers générés par Python
+__pycache__/
+*.py[cod]
+
+# Setuptools / packaging
+*.egg-info/
+build/
+dist/
+
+# Tests / coverage
+.coverage
+htmlcov/
+
+# Outils
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+# Éditeurs
+.vscode/
+.idea/
+
+# Documentation
+docs/_build/
+
+#Dossier de sauvegardes
+game_saves/
+
+*.csv
+*.pkl
+*.keras
+datasets/
+models/*.pkl
+models/*.keras

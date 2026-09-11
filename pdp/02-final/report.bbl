@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{Browne2014}
+Cameron Browne.
+\newblock Bitboard methods for games.
+\newblock {\em ICGA Journal}, 37(2):67--84, June 2014.
+
+\bibitem{Browne2012}
+Cameron~B. Browne, Edward Powley, Daniel Whitehouse, Simon~M. Lucas, Peter~I.
+  Cowling, Philipp Rohlfshagen, Stephen Tavener, Diego Perez, Spyridon
+  Samothrakis, and Simon Colton.
+\newblock A survey of monte carlo tree search methods.
+\newblock {\em IEEE Transactions on Computational Intelligence and AI in
+  Games}, 4(1):1--43, 2012.
+
+\bibitem{Buro1997}
+Michael Buro.
+\newblock Logistello: A strong learning othello program.
+\newblock Technical report, NEC Research Institute, 1997.
+
+\bibitem{Edax2023}
+Richard Delorme.
+\newblock Edax: a strong othello program.
+\newblock \url{https://github.com/quoniam/edax-reversi}, 2023.
+
+\bibitem{OthelloSpecs2025}
+Emmanuel Fleury.
+\newblock Cahier des charges : Othello.
+\newblock Spécifications du projet, Université de Bordeaux, 2025.
+
+\bibitem{Knuth1997}
+Donald~E. Knuth.
+\newblock {\em The Art of Computer Programming, Volume 2: Seminumerical
+  Algorithms}.
+\newblock Addison-Wesley Professional, 3rd edition, 1997.
+
+\bibitem{Lee1990}
+Kai-Fu Lee and Sanjoy Mahajan.
+\newblock The development of a world class othello program.
+\newblock {\em Artificial Intelligence}, 43(1):21--36, 1990.
+
+\bibitem{Python310}
+{Python Software Foundation}.
+\newblock {\em Python Language Reference, Version 3.10}, 2021.
+
+\bibitem{Rosenbloom1982}
+Paul~S Rosenbloom.
+\newblock A world-championship-level othello program.
+\newblock {\em Artificial Intelligence}, 19(3):279--320, 1982.
+
+\bibitem{Takizawa2024}
+Hiroki Takizawa.
+\newblock Othello is solved.
+\newblock {\em arXiv:2310.19387}, 2024.
+
+\bibitem{WOF}
+{World Othello Federation}.
+\newblock Official othello rules.
+\newblock \url{https://www.worldothello.org}.
+
+\end{thebibliography}

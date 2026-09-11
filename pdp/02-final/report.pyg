@@ -1,0 +1,12 @@
+# Constantes empiriques (calibrage machine)
+base_time = 0.0002
+growth = 3.08
+
+# Calcul de la profondeur théorique brute
+depth = 1 + math.log(time_limit / base_time) / math.log(growth)
+
+# Correction selon le facteur de branchement (base moyenne de 6 coups)
+depth -= math.log(branching_factor / 6) / math.log(growth)
+
+# Résultat final avec marge de sécurité
+final_depth = max(1, int(depth) - 1)

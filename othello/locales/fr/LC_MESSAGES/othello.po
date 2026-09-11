@@ -1,0 +1,1811 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-26 03:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: othello/common/command.py:244 othello/common/command.py:280
+#: othello/common/command.py:250 othello/common/command.py:286
+msgid "End of the game."
+msgstr "Fin du jeu."
+
+#: othello/common/command.py:250 othello/common/command.py:256
+msgid "Save the game before quitting? [y/N] "
+msgstr "Sauvegarder le jeu avant de quitter ? [o/N]"
+
+#: othello/common/command.py:258 othello/common/command.py:264
+msgid "Enter filename: "
+msgstr "Entrez le nom du fichier :"
+
+#: othello/common/command.py:262 othello/user_interface/othello_window.py:492
+#: othello/common/command.py:268 othello/user_interface/othello_window.py:495
+msgid "Filename cannot be empty."
+msgstr "Le nom de fichier ne peut pas être vide."
+
+#: othello/common/command.py:268 othello/common/command.py:274
+msgid "Game saved. End of the game."
+msgstr "Jeu sauvegardé. Fin du jeu."
+
+#: othello/common/command.py:274 othello/common/command.py:280
+msgid "Failed to save. Please try another filename or quit without saving."
+msgstr ""
+"Échec de l'enregistrement. Veuillez essayer un autre nom de fichier ou "
+"quitter sans enregistrer."
+
+#: othello/orchestrator/app_orchestrator.py:93
+#: othello/orchestrator/app_orchestrator.py:95
+msgid "Running in verbose mode"
+msgstr "Exécution en mode verbeux"
+
+#: othello/orchestrator/game_session.py:111
+#: othello/orchestrator/game_session.py:113
+msgid "Both players (Black and White) are AI."
+msgstr "Les deux joueurs (Noir et Blanc) sont des IA."
+
+#: othello/orchestrator/game_session.py:115
+#: othello/orchestrator/game_session.py:117
+msgid "Black player (X) is an AI."
+msgstr "Le joueur noir (X) est une IA."
+
+#: othello/orchestrator/game_session.py:118
+#: othello/orchestrator/game_session.py:120
+msgid "White player (O) is an AI."
+msgstr "Le joueur blanc (O) est une IA."
+
+#: othello/player/real_player.py:32
+#, python-brace-format
+msgid "Player {player}, enter your move (e.g. {player} e4) or 'help':"
+msgstr ""
+"Joueur {player}, entrez votre coup (par exemple {player} e4) ou 'help' :"
+
+#: othello/user_interface/othello_window.py:412
+msgid "No server selected or manually entered."
+msgstr "Aucun serveur sélectionné ou saisi manuellement."
+
+#: othello/user_interface/othello_window.py:439
+msgid "No player selected."
+msgstr "Aucun joueur sélectionné."
+
+#: othello/user_interface/othello_window.py:451
+msgid "Disconnected."
+msgstr "Déconnecté."
+
+#: othello/user_interface/othello_window.py:570
+#: othello/user_interface/othello_window.py:573
+msgid "Configuration saved. Game has been restarted."
+msgstr "Configuration enregistrée. Le jeu a été redémarré."
+
+#: othello/user_interface/othello_window.py:607
+#: othello/user_interface/othello_window.py:610
+msgid "Do you want to save the game before quitting?"
+msgstr "Voulez-vous sauvegarder le jeu avant de quitter ?"
+
+#: othello/user_interface/othello_window.py:686
+#: othello/user_interface/othello_window.py:689
+msgid "Black's turn to play"
+msgstr "C'est au tour des noirs de jouer"
+
+#: othello/user_interface/othello_window.py:688
+#: othello/user_interface/othello_window.py:691
+msgid "White's turn to play"
+msgstr "C'est au tour des blancs de jouer"
+
+#: othello/user_interface/othello_window.py:701
+#: othello/user_interface/othello_window.py:704
+msgid "AI is thinking..."
+msgstr "L'IA pense..."
+
+#: othello/user_interface/othello_window.py:1006
+#: othello/user_interface/othello_window.py:1013
+#, python-brace-format
+msgid ""
+"Winner: {winner}\n"
+"Black (X): {black_score}\n"
+"White (O): {white_score}"
+msgstr ""
+"Gagnant : {winner}\n"
+"Noir (X) : {black_score}\n"
+"Blanc (O) : {white_score}"
+
+#: othello/user_interface/othello_window.py:1081
+#: othello/user_interface/othello_window.py:1088
+msgid "New challenge!"
+msgstr "Nouveau défi !"
+
+#: othello/user_interface/othello_window.py:1086
+#: othello/user_interface/othello_window.py:1093
+#, python-brace-format
+msgid "{requester_name} challenges you to a game. Do you accept?"
+msgstr "{requester_name} vous défie dans un jeu. Acceptez-vous ?"
+
+#: othello/user_interface/othello_window.py:1091
+#: othello/user_interface/othello_window.py:1098
+msgid "Decline"
+msgstr "Déclin"
+
+#: othello/user_interface/othello_window.py:1092
+#: othello/user_interface/othello_window.py:1099
+msgid "Accept"
+msgstr "Accepter"
+
+#: othello/user_interface/othello_window.py:1132
+#: othello/user_interface/othello_window.py:1139
+msgid "Server Scoreboard"
+msgstr "Tableau de bord du serveur"
+
+#: othello/user_interface/othello_window.py:1180
+#: othello/user_interface/othello_window.py:1187
+#, python-brace-format
+msgid "[+] Connected players: {clients}   |   ⚔️ Games in progress: {games}"
+msgstr "[+] Joueurs connectés : {clients} |   ⚔️ Jeux en cours : {games}"
+
+#: othello/common/arg_parser.py:21
+msgid "Othello Game"
+msgstr "Jeu Othello"
+
+#: othello/common/arg_parser.py:38
+msgid "Increase verbosity"
+msgstr "Augmenter la verbosité"
+
+#: othello/common/arg_parser.py:41
+msgid "Show debug messages"
+msgstr "Afficher les messages de débogage"
+
+#: othello/common/arg_parser.py:46
+msgid "Enable blitz mode"
+msgstr "Activer le mode éclair"
+
+#: othello/common/arg_parser.py:52
+msgid "Time limit in minutes for blitz mode"
+msgstr "Limite de temps en minutes pour le mode blitz"
+
+#: othello/common/arg_parser.py:55
+msgid "Launch GUI"
+msgstr "Lancer l'interface graphique"
+
+#: othello/common/arg_parser.py:58
+msgid "Contest mode"
+msgstr "Mode concours"
+
+#: othello/common/arg_parser.py:66
+msgid "Board size (6, 8, 10 or 12). Default = 8."
+msgstr "Taille du tableau (6, 8, 10 ou 12). Par défaut = 8."
+
+#: othello/common/arg_parser.py:76
+msgid "Enable AI for a color (or all)"
+msgstr "Activer l'IA pour une couleur (ou toutes)"
+
+#: othello/common/arg_parser.py:79
+msgid "AI thinking time in seconds"
+msgstr "Temps de réflexion de l'IA en secondes"
+
+#: othello/common/arg_parser.py:84
+msgid "AI algorithm mode"
+msgstr "Mode algorithme IA"
+
+#: othello/common/arg_parser.py:90
+msgid "MCTS Selection algorithm"
+msgstr "Algorithme de sélection MCTS"
+
+#: othello/common/arg_parser.py:93
+msgid "Minimax depth"
+msgstr "Profondeur minimax"
+
+#: othello/common/arg_parser.py:98
+msgid "Minimax scoring function"
+msgstr "Fonction de notation Minimax"
+
+#: othello/common/arg_parser.py:105
+msgid "File to load (game save or contest file)"
+msgstr "Fichier à charger (sauvegarde du jeu ou fichier concours)"
+
+#: othello/common/arg_parser.py:112
+msgid "Start as server mode"
+msgstr "Démarrer en mode serveur"
+
+#: othello/common/arg_parser.py:119
+msgid "Port to use for server (default: 12345)"
+msgstr "Port à utiliser pour le serveur (par défaut : 12345)"
+
+#: othello/common/arg_parser.py:124
+msgid "Run server in daemon mode"
+msgstr "Exécuter le serveur en mode démon"
+
+#: othello/common/arg_parser.py:131
+msgid "Choose language"
+msgstr "Choisir la langue"
+
+#: othello/common/arg_parser.py:160
+msgid ""
+"Warning : Option '--time' ignored because Blitz Mode (--blitz) is not "
+"enabled."
+msgstr ""
+"Attention : Option '--time' ignorée car le mode Blitz (--blitz) n'est pas "
+"activé."
+
+#: othello/common/command.py:129
+msgid "Game is paused. Use 'pause' to resume the game."
+msgstr "Le jeu est en pause. Utilisez « pause » pour reprendre le jeu."
+
+#: othello/common/command.py:146
+#, python-brace-format
+msgid "It's {player}'s turn to play!"
+msgstr "C'est au tour de {player} de jouer !"
+
+#: othello/common/command.py:167
+msgid ""
+"Illegal move: The square must be empty and take at least one opponent piece."
+msgstr ""
+"Coup illégal : La case doit être vide et prendre au moins une pièce adverse."
+
+#: othello/common/command.py:206
+msgid "Next player has no valid moves and must skip their turn!"
+msgstr ""
+"Le joueur suivant n'a aucun mouvement valide et doit passer son tour !"
+
+#: othello/common/command.py:243 othello/network/game_client.py:139
+msgid "Disconnected from server."
+msgstr "Déconnecté du serveur."
+
+#: othello/common/command.py:309
+msgid ""
+"Usage: new [-h] [-V] [-v] [-d] [-b] [-t TIME] [-g] [-c] [-s {6,8,10,12}].\n"
+"\n"
+"               [-a [AI]] [--ai-time AI_TIME]\n"
+"               [--ai-mode {minimax,iterative,mcts}]\n"
+"               [--ai-mcts-selection {UCT,ML,DL}]\n"
+"               [--ai-minimax-depth AI_MINIMAX_DEPTH]\n"
+"               [--ai-minimax-scoring AI_MINIMAX_SCORING]\n"
+"               [--server [SERVER]] [--daemon]\n"
+"               [-l {en,fr}]\n"
+"               [file]\n"
+"            Usage in Lobby: new <player_id>\n"
+"\n"
+"Othello Game\n"
+"\n"
+"positional arguments:\n"
+"  file                  File to load (game save or contest file)\n"
+"\n"
+"options:\n"
+"  -h, --help            show this help message and exit\n"
+"  -V, --version         show program's version number and exit\n"
+"  -v, --verbose         Increase verbosity\n"
+"  -d, --debug           Show debug messages\n"
+"  -b, --blitz           Enable blitz mode\n"
+"  -t, --time TIME       Time limit in minutes for blitz mode\n"
+"  -g, --gui             Launch GUI\n"
+"  -c, --contest         Contest mode\n"
+"  -s, --size {6,8,10,12}\n"
+"                        Board size (6, 8, 10 or 12). Default = 8.\n"
+"  -a, --ai [AI]         Enable AI for a color (or all)\n"
+"  --ai-time AI_TIME     AI thinking time in seconds\n"
+"  --ai-mode {minimax,iterative,mcts}\n"
+"                        AI algorithm mode\n"
+"  --ai-mcts-selection {UCT,ML,DL}\n"
+"                        MCTS Selection algorithm\n"
+"  --ai-minimax-depth AI_MINIMAX_DEPTH\n"
+"                        Minimax depth\n"
+"  --ai-minimax-scoring AI_MINIMAX_SCORING\n"
+"                        Minimax scoring function\n"
+"  --server, -S [SERVER]\n"
+"                        Start as server on port\n"
+"  --daemon              Run server in daemon mode\n"
+"  -l, --lang {en,fr}    Choose language\n"
+"\n"
+"Note: When connected to a server, 'new <player_id>' sends a game invitation.\n"
+msgstr ""
+"Utilisation : nouveau [-h] [-V] [-v] [-d] [-b] [-t TIME] [-g] [-c] [-s {6,8,10,12}].\n"
+"\n"
+"               [-a [AI]] [--ai-time AI_TIME]\n"
+"               [--ai-mode {minimax,iterative,mcts}]\n"
+"               [--ai-mcts-sélection {UCT,ML,DL}]\n"
+"               [--ai-minimax-profondeur AI_MINIMAX_DEPTH]\n"
+"               [--ai-minimax-scoring AI_MINIMAX_SCORING]\n"
+"               [--server [SERVEUR]] [--démon]\n"
+"               [-l {en,fr}]\n"
+"               [fichier]\n"
+"            Utilisation dans le lobby : nouveau <player_id>\n"
+"\n"
+"Jeu Othello\n"
+"\n"
+"arguments de position :\n"
+"  file Fichier à charger (sauvegarde du jeu ou fichier du concours)\n"
+"\n"
+"choix :\n"
+"  -h, --help afficher ce message d'aide et quitter\n"
+"  -V, --version affiche le numéro de version du programme et quitte\n"
+"  -v, --verbose Augmente la verbosité\n"
+"  -d, --debug Afficher les messages de débogage\n"
+"  -b, --blitz Activer le mode blitz\n"
+"  -t, --time TIME Limite de temps en minutes pour le mode blitz\n"
+"  -g, --gui Lancer l'interface graphique\n"
+"  -c, --contest Mode concours\n"
+"  -s, --size {6,8,10,12}\n"
+"                        Taille du tableau (6, 8, 10 ou 12). Par défaut = 8.\n"
+"  -a, --ai [AI] Activer l'IA pour une couleur (ou toutes)\n"
+"  --ai-time AI_TIME Temps de réflexion de l'IA en secondes\n"
+"  --ai-mode {minimax,iterative,mcts}\n"
+"                        Mode algorithme IA\n"
+"  --ai-mcts-sélection {UCT,ML,DL}\n"
+"                        Algorithme de sélection MCTS\n"
+"  --ai-minimax-profondeur AI_MINIMAX_DEPTH\n"
+"                        Profondeur minimax\n"
+"  --ai-minimax-scoring AI_MINIMAX_SCORING\n"
+"                        Fonction de notation Minimax\n"
+"  --server, -S [SERVER]\n"
+"                        Démarrer en tant que serveur sur le port\n"
+"  --daemon Exécuter le serveur en mode démon\n"
+"  -l, --lang {en,fr} Choisir la langue\n"
+"\n"
+"Remarque : Lorsqu'il est connecté à un serveur, 'new <player_id>' envoie une invitation à jouer.\n"
+
+#: othello/common/command.py:357
+msgid ""
+"Usage: <Color> <Coordinates>\n"
+"Plays a move on the board.\n"
+"Example: 'X E4', 'O d3'"
+msgstr ""
+"Utilisation : <Couleur> <Coordonnées>\n"
+"Joue un coup sur le plateau.\n"
+"Exemple : 'X E4', 'O d3'"
+
+#: othello/common/command.py:362
+msgid ""
+"Usage: save <filename> [comment]\n"
+"Saves the current game state to a file.\n"
+"Example: 'save mygame.json', 'save backup \"Easy win\"'"
+msgstr ""
+"Utilisation : save <filename> [commentaire]\n"
+"Enregistre l'état actuel du jeu dans un fichier.\n"
+"Exemple : 'enregistrer mon jeu.json', 'enregistrer la sauvegarde \"Easy win\"'"
+
+#: othello/common/command.py:367
+msgid ""
+"Usage: load <filename>\n"
+"Loads a game state from a file.\n"
+"Example: 'load mygame.json'"
+msgstr ""
+"Utilisation : charger <nom de fichier>\n"
+"Charge un état de jeu à partir d'un fichier.\n"
+"Exemple : « charger mon jeu.json »"
+
+#: othello/common/command.py:372
+msgid ""
+"Usage: undo [N]\n"
+"Cancels the last N moves (default is 1).\n"
+"Example: 'undo', 'undo 3'"
+msgstr ""
+"Utilisation : annuler [N]\n"
+"Annule les N derniers mouvements (la valeur par défaut est 1).\n"
+"Exemple : « annuler », « annuler 3 »"
+
+#: othello/common/command.py:377
+msgid ""
+"Usage: redo [N]\n"
+"Replays the last N canceled moves (default is 1).\n"
+"Example: 'redo', 'redo 2'"
+msgstr ""
+"Utilisation : refaire [N]\n"
+"Rejoue les N derniers coups annulés (la valeur par défaut est 1).\n"
+"Exemple : \"refaire\", \"refaire 2\""
+
+#: othello/common/command.py:382
+msgid ""
+"Usage: show <target>\n"
+"Displays information about the game state.\n"
+"Targets:\n"
+" - board : Display the board\n"
+" - history : Display move history\n"
+" - time : Display remaining time\n"
+" - configuration : Display current settings"
+msgstr ""
+"Utilisation : afficher <cible>\n"
+"Affiche des informations sur l'état du jeu.\n"
+"Cibles :\n"
+" - board : Afficher le tableau\n"
+" - historique : Afficher l'historique des mouvements\n"
+" - time : Afficher le temps restant\n"
+" - configuration : Afficher les paramètres actuels"
+
+#: othello/common/command.py:391
+msgid ""
+"Usage: set <param>=<value>\n"
+"Modifies the current configuration.\n"
+"Example: 'set debug=true', 'set theme=dark'"
+msgstr ""
+"Utilisation : set <param>=<value>\n"
+"Modifie la configuration actuelle.\n"
+"Exemple : 'set debug=true', 'set theme=dark'"
+
+#: othello/common/command.py:395
+msgid ""
+"Usage: hint\n"
+"Asks the engine for a move suggestion."
+msgstr ""
+"Utilisation : indice\n"
+"Demande au moteur une suggestion de déplacement."
+
+#: othello/common/command.py:396
+msgid ""
+"Usage: pause\n"
+"Pauses the game timer (Blitz mode)."
+msgstr ""
+"Utilisation : pause\n"
+"Met le chronomètre de jeu en pause (mode Blitz)."
+
+#: othello/common/command.py:398
+msgid ""
+"Usage: server <list|start [port]|stop|status>\n"
+"Manages the local Othello server.\n"
+" - list : See available servers on the local network.\n"
+" - start : Starts a server on the given port (default 12345).\n"
+" - stop : Stops the current running server.\n"
+" - status : Displays information about the current server state."
+msgstr ""
+"Utilisation : serveur <list|start [port]|stop|status>\n"
+"Gère le serveur Othello local.\n"
+" - liste : Voir les serveurs disponibles sur le réseau local.\n"
+" - start : Démarre un serveur sur le port donné (par défaut 12345).\n"
+" - stop : Arrête le serveur en cours d'exécution.\n"
+" - status : Affiche des informations sur l'état actuel du serveur."
+
+#: othello/common/command.py:408
+msgid ""
+"Usage: join <ip:port> [id]\n"
+"Connect to an existing Othello server.\n"
+"Example: 'join 192.168.1.10:12345' or 'join bob' if bob was your previous ID."
+msgstr ""
+"Utilisation : rejoindre <ip:port> [id]\n"
+"Connectez-vous à un serveur Othello existant.\n"
+"Exemple : « rejoindre 192.168.1.10:12345 » ou « rejoindre bob » si bob était votre identifiant précédent."
+
+#: othello/common/command.py:414
+msgid ""
+"Usage: ping\n"
+"Tests the connection to the connected server."
+msgstr ""
+"Utilisation : ping\n"
+"Teste la connexion au serveur connecté."
+
+#: othello/common/command.py:417
+msgid ""
+"Usage: players or players [PLAYER_ID] for details\n"
+"Lists all players or shows details for a specific player.\n"
+"Details include status (idle, away, waitgame, ingame), score, and statistics."
+msgstr ""
+"Utilisation : joueurs ou joueurs [PLAYER_ID] pour plus de détails\n"
+"Répertorie tous les joueurs ou affiche les détails d'un joueur spécifique.\n"
+"Les détails incluent le statut (inactif, absent, waitgame, ingame), le score et les statistiques."
+
+#: othello/common/command.py:423
+msgid ""
+"Usage: scoreboard\n"
+"Displays the current scoreboard from the server."
+msgstr ""
+"Utilisation : tableau de bord\n"
+"Affiche le tableau de bord actuel du serveur."
+
+#: othello/common/command.py:427
+msgid ""
+"Usage: name <pseudo>\n"
+"Changes your player name on the server."
+msgstr ""
+"Utilisation : nom <pseudo>\n"
+"Change votre nom de joueur sur le serveur."
+
+#: othello/common/command.py:430
+msgid ""
+"Usage: quit [force]\n"
+"Exits the game or disconnects from server."
+msgstr ""
+"Utilisation : quitter [forcer]\n"
+"Exits the game or disconnects from server."
+
+#: othello/common/command.py:434
+msgid ""
+"Usage: help [command]\n"
+"Displays this list or details for a specific command."
+msgstr ""
+"Utilisation : aide [commande]\n"
+"Affiche cette liste ou les détails d'une commande spécifique."
+
+#: othello/common/command.py:437
+msgid ""
+"Usage: accept\n"
+"Accepts a pending game invitation."
+msgstr ""
+"Utilisation : accepter\n"
+"Accepte une invitation à un jeu en attente."
+
+#: othello/common/command.py:438
+msgid ""
+"Usage: decline\n"
+"Refuses a pending game invitation."
+msgstr ""
+"Utilisation : refuser\n"
+"Refuse une invitation à un jeu en attente."
+
+#: othello/common/command.py:440
+msgid ""
+"Usage: cancel\n"
+"Cancels an invitation you have sent (if still pending)."
+msgstr ""
+"Utilisation : annuler\n"
+"Annule une invitation que vous avez envoyée (si elle est toujours en attente)."
+
+#: othello/common/command.py:444
+msgid ""
+"Usage: away\n"
+"Sets your status to 'away' (no invitations received)."
+msgstr ""
+"Utilisation : à l'extérieur\n"
+"Définit votre statut sur « absent » (aucune invitation reçue)."
+
+#: othello/common/command.py:447
+msgid ""
+"Usage: back\n"
+"Sets your status back to 'idle'."
+msgstr ""
+"Utilisation : retour\n"
+"Rétablit votre statut sur « inactif »."
+
+#: othello/common/command.py:449
+msgid ""
+"Usage: waitgame\n"
+"Displays your current search/invitation status."
+msgstr ""
+"Utilisation : attendre le jeu\n"
+"Affiche votre statut actuel de recherche/invitation."
+
+#: othello/common/command.py:457
+#, python-brace-format
+msgid ""
+"--- Help: {topic_key} ---\n"
+"{details}"
+msgstr ""
+"--- Aide : {topic_key} ---\n"
+"{details}"
+
+#: othello/common/command.py:464
+#, python-brace-format
+msgid "No help available for command '{topic}'."
+msgstr "Aucune aide disponible pour la commande '{topic}'."
+
+#: othello/common/command.py:470
+msgid ""
+"Available commands (type 'help <CMD>' for details):\n"
+"---------------------------------------------------\n"
+" - Game      : new, load, save, quit\n"
+" - Play      : <Color> <Coord> (e.g. X E4), undo, redo, hint\n"
+" - Info      : show (board, history, time, configuration),\n"
+"              scoreboard, players, waitgame\n"
+" - Settings  : set, pause, name, away, back\n"
+" - Network   : join, server, ping, players, accept, decline, cancel\n"
+" - System    : help\n"
+msgstr ""
+"Commandes disponibles (tapez 'help <CMD>' pour plus de détails) :\n"
+"---------------------------------------------------\n"
+" - Jeu : new, load, save, quit\n"
+" - Lecture : : <Color> <Coord> (e.g. X E4), undo, redo, hint\n"
+" - Infos : show (board, history, time, configuration),\n"
+"              scoreboard, players, waitgame\n"
+" - Paramètres : set, pause, name, away, back\n"
+" - Réseau : join, server, ping, players, accept, decline, cancel\n"
+" - Système : help\n"
+
+#: othello/common/command.py:517
+msgid "Cannot save game during a network match. Finish or disconnect first."
+msgstr ""
+"Impossible de sauvegarder la partie pendant une partie en réseau. Terminez "
+"ou déconnectez-vous d’abord."
+
+#: othello/common/command.py:527
+msgid "Usage: save <filename> [comment]"
+msgstr "Utilisation : save <filename> [commentaire]"
+
+#: othello/common/command.py:560
+msgid "Cannot load game during a network match."
+msgstr "Impossible de charger le jeu pendant une partie en réseau."
+
+#: othello/common/command.py:567
+#, python-brace-format
+msgid "Game loaded from {filename}"
+msgstr "Jeu chargé depuis {filename}"
+
+#: othello/common/command.py:572
+msgid "Usage: load <filename>"
+msgstr "Utilisation : charger <nom de fichier>"
+
+#: othello/common/command.py:605
+msgid "Undo is not available in network mode."
+msgstr "L'annulation n'est pas disponible en mode réseau."
+
+#: othello/common/command.py:611
+#, python-brace-format
+msgid "Undid {n} move(s)."
+msgstr "Annuler {n} mouvements."
+
+#: othello/common/command.py:644
+msgid "Redo is not available in network mode."
+msgstr "Rétablir n'est pas disponible en mode réseau."
+
+#: othello/common/command.py:650
+#, python-brace-format
+msgid "Redid {n} move(s)."
+msgstr "Refait {n} mouvement(s)."
+
+#: othello/common/command.py:680
+msgid "Usage in Lobby: new <player_id>"
+msgstr "Utilisation dans le lobby : nouveau <player_id>"
+
+#: othello/common/command.py:696
+#, python-brace-format
+msgid "Error parsing arguments: {error}"
+msgstr "Erreur lors de l'analyse des arguments : {error}"
+
+#: othello/common/command.py:701
+msgid "Starting new game..."
+msgstr "Commencer un nouveau jeu..."
+
+#: othello/common/command.py:704
+#, python-brace-format
+msgid "Size: {size}"
+msgstr "Taille : {size}"
+
+#: othello/common/command.py:709
+#, python-brace-format
+msgid "Mode: vs AI ({color})"
+msgstr "Mode : contre l'IA ({color})"
+
+#: othello/common/command.py:712
+msgid "Mode: Blitz"
+msgstr "Mode : Blitz"
+
+#: othello/common/command.py:715
+msgid "Mode: Contest"
+msgstr "Mode : Concours"
+
+#: othello/common/command.py:735
+msgid "Can pause only in Blitz."
+msgstr "Peut faire une pause uniquement en Blitz."
+
+#: othello/common/command.py:759
+#, python-brace-format
+msgid "Hint: {move} seems like a good move."
+msgstr "Indice : {move} semble être une bonne décision."
+
+#: othello/common/command.py:796
+msgid "History empty."
+msgstr "Historique vide."
+
+#: othello/common/command.py:798
+msgid "[History]\n"
+msgstr "[Historique]\n"
+
+#: othello/common/command.py:822
+msgid " (Paused)"
+msgstr "(En pause)"
+
+#: othello/common/command.py:826
+#, python-brace-format
+msgid "Remaining Time{status} : X ({mx:02d}:{sx:02d})- O ({mo:02d}:{so:02d})"
+msgstr "Temps restant{status} : X ({mx:02d}:{sx:02d})- O ({mo:02d}:{so:02d})"
+
+#: othello/common/command.py:837
+msgid "Blitz is not enabled."
+msgstr "Le Blitz n'est pas activé."
+
+#: othello/common/command.py:841
+msgid "=== Current Configuration ==="
+msgstr "=== Configuration actuelle ==="
+
+#: othello/common/command.py:847
+#, python-brace-format
+msgid "Unknown show target: {target}"
+msgstr "Cible d'affichage inconnue : {target}"
+
+#: othello/common/command.py:872
+msgid ""
+"Can't change the size during a game.\n"
+"End the game or use 'new size=...'"
+msgstr ""
+"Impossible de changer la taille pendant une partie.\n"
+"Terminez le jeu ou utilisez 'new size=...'"
+
+#: othello/common/command.py:881
+#, python-brace-format
+msgid "Configuration updated: {param} = {value}"
+msgstr "Configuration mise à jour : {param} = {value}"
+
+#: othello/common/command.py:890
+#, python-brace-format
+msgid "Invalid value for '{param}'. check 'help set' or logs."
+msgstr ""
+"Valeur non valide pour '{param}'. vérifiez 'help set' ou les journaux."
+
+#: othello/common/command.py:913
+msgid "Background discovery service not initialized."
+msgstr "Service de découverte en arrière-plan non initialisé."
+
+#: othello/common/command.py:927
+msgid "No servers found (listening in background...)."
+msgstr "Aucun serveur trouvé (écoute en arrière-plan...)."
+
+#: othello/common/command.py:931
+#, python-brace-format
+msgid "Found {count} server(s):"
+msgstr "{count} serveur(s) trouvé(s) :"
+
+#: othello/common/command.py:943 othello/network/game_server.py:63
+msgid "Server is already running."
+msgstr "Le serveur est déjà en cours d'exécution."
+
+#: othello/common/command.py:961
+#, python-brace-format
+msgid "Custom server started on TCP port {port}. Press Ctrl+C to stop."
+msgstr ""
+"Le serveur personnalisé a démarré sur le port TCP {port}. Appuyez sur Ctrl+C"
+" pour arrêter."
+
+#: othello/common/command.py:972
+msgid "Server stopped."
+msgstr "Le serveur s'est arrêté."
+
+#: othello/common/command.py:974
+msgid "No server running."
+msgstr "Aucun serveur en cours d'exécution."
+
+#: othello/common/command.py:977
+#, python-brace-format
+msgid "Unknown server action: {action}"
+msgstr "Action de serveur inconnue : {action}"
+
+#: othello/common/command.py:980
+msgid "Usage: server <list|start [port]|stop>"
+msgstr "Utilisation : serveur <list|start [port]|stop>"
+
+#: othello/common/command.py:1032
+msgid "Successfully connected to the server."
+msgstr "Connexion réussie au serveur."
+
+#: othello/common/command.py:1039
+msgid ""
+"Successfully connected to the server. Type 'players' or 'new <ids>' to "
+"interact ."
+msgstr ""
+"Connexion réussie au serveur. Tapez 'players' ou 'new <ids>' pour "
+"interagir."
+
+#: othello/common/command.py:1051
+msgid "Could not join server."
+msgstr "Impossible de rejoindre le serveur."
+
+#: othello/common/command.py:1067
+msgid "Ping requested."
+msgstr "Ping demandé."
+
+#: othello/common/command.py:1096
+#, python-brace-format
+msgid "Server reply: PONG TIME={ms}ms"
+msgstr "Réponse du serveur : PONG TIME={ms}ms"
+
+#: othello/common/command.py:1102
+msgid "Ping timeout: No response from server."
+msgstr "Délai d'expiration du ping : aucune réponse du serveur."
+
+#: othello/common/command.py:1106
+#, python-brace-format
+msgid "Ping Error: {error}"
+msgstr "Erreur Ping : {error}"
+
+#: othello/common/command.py:1110
+msgid "Not connected to a server. Try 'join' first."
+msgstr "Non connecté à un serveur. Essayez d'abord de « rejoindre »."
+
+#: othello/common/command.py:1153 othello/common/command.py:1222
+#: othello/common/command.py:1237 othello/common/command.py:1252
+#: othello/common/command.py:1267 othello/common/command.py:1282
+#: othello/common/command.py:1297 othello/common/command.py:1312
+#: othello/common/command.py:1355 othello/common/command.py:1373
+#: othello/common/command.py:1412
+msgid "Not connected to a server."
+msgstr "Non connecté à un serveur."
+
+#: othello/common/config_manager.py:69
+#, python-brace-format
+msgid "Warning: Could not parse config file {path}: {error}"
+msgstr ""
+"Avertissement : Impossible d'analyser le fichier de configuration {path} :"
+" {error}"
+
+#: othello/common/config_manager.py:86
+msgid "Error: Config file missing 'defaults' section."
+msgstr ""
+"Erreur : le fichier de configuration manque la section 'defaults'."
+
+#: othello/common/config_manager.py:146
+#, python-brace-format
+msgid "Warning: Unknown option '{key}' in configuration."
+msgstr "Attention : option inconnue '{key}' dans la configuration."
+
+#: othello/common/config_manager.py:155
+#, python-brace-format
+msgid "Error: Invalid type for '{key}': {value}"
+msgstr "Erreur : Type non valide pour '{key}' : {value}"
+
+#: othello/common/config_manager.py:165
+#, python-brace-format
+msgid "Error: '{key}' must be 'true' or 'false'."
+msgstr "Erreur : « {key} » doit être « vrai » ou « false »."
+
+#: othello/common/config_manager.py:182
+#, python-brace-format
+msgid "Error: '{key}' must be one of {allowed_values}."
+msgstr "Erreur : '{key}' doit être l'une des {allowed_values}."
+
+#: othello/common/config_manager.py:190
+#, python-brace-format
+msgid "Error: '{key}' must be >= {min_val}."
+msgstr "Erreur : '{key}' doit être >= {min_val}."
+
+#: othello/common/config_manager.py:198
+#, python-brace-format
+msgid "Error: '{key}' must be <= {max_val}."
+msgstr "Erreur : '{key}' doit être <= {max_val}."
+
+#: othello/common/config_manager.py:210
+#, python-brace-format
+msgid "Error: '{key}' must be > {min_val}."
+msgstr "Erreur : '{key}' doit être > {min_val}."
+
+#: othello/common/config_manager.py:221
+#, python-brace-format
+msgid "Error: '{key}' must be one of {choices}."
+msgstr "Erreur : '{key}' doit être l'un des {choices}."
+
+#: othello/common/config_manager.py:237
+#, python-brace-format
+msgid "Warning: Could not create default config file {path}: {error}"
+msgstr ""
+"Avertissement : Impossible de créer le fichier de configuration par défaut "
+"{path} : {error}"
+
+#: othello/game_engine/game_rules.py:25
+msgid "Out of bounds move."
+msgstr "Mouvement hors limites."
+
+#: othello/game_engine/game_rules.py:33
+msgid "Cell is not empty."
+msgstr "La cellule n'est pas vide."
+
+#: othello/game_engine/game_rules.py:108 othello/game_engine/game_rules.py:112
+msgid "Invalid move format"
+msgstr "Format de déplacement invalide"
+
+#: othello/game_engine/game_rules.py:118
+msgid "Invalid color (expected X or O)"
+msgstr "Couleur invalide (X ou O attendu)"
+
+#: othello/game_engine/game_rules.py:121 othello/game_engine/game_rules.py:127
+msgid "Invalid coordinate"
+msgstr "Coordonnée invalide"
+
+#: othello/game_engine/game_rules.py:133
+msgid "Move out of bounds"
+msgstr "Sortir des limites"
+
+#: othello/game_engine/game_rules.py:160
+#, python-brace-format
+msgid "Game over! Winner: {winner}"
+msgstr "Jeu terminé! Gagnant : {winner}"
+
+#: othello/game_engine/game_rules.py:163
+#, python-brace-format
+msgid "Final score - Black (X): {black}, White (O): {white}"
+msgstr "Score final - Noir (X) : {black}, Blanc (O) : {white}"
+
+#: othello/network/discovery_service.py:120
+#, python-brace-format
+msgid "Error binding UDP listener: {error}"
+msgstr "Erreur lors de la liaison de l'écouteur UDP : {error}"
+
+#: othello/network/discovery_service.py:142
+#, python-brace-format
+msgid "Discovery listener error: {error}"
+msgstr "Erreur de l'écouteur de découverte : {error}"
+
+#: othello/network/game_client.py:41
+msgid "Disconnecting from previous server before joining new one..."
+msgstr ""
+"Se déconnecter du serveur précédent avant d'en rejoindre un nouveau..."
+
+#: othello/network/game_client.py:53
+#, python-brace-format
+msgid "Connected to {ip}:{port}!"
+msgstr "Connecté à {ip} :{port} !"
+
+#: othello/network/game_client.py:67
+#, python-brace-format
+msgid "Attempting to reconnect as {id}..."
+msgstr "Tentative de reconnexion en tant que {id}..."
+
+#: othello/network/game_client.py:76
+#, python-brace-format
+msgid "Failed to connect to {ip}:{port}: {error}"
+msgstr "Échec de la connexion à {ip} :{port} : {error}"
+
+#: othello/network/game_client.py:88
+#, python-brace-format
+msgid "Client: Connected to {ip}:{port}"
+msgstr "Client : connecté à {ip} : {port}"
+
+#: othello/network/game_client.py:91
+msgid "Client: Not connected"
+msgstr "Client : Non connecté"
+
+#: othello/network/game_client.py:100
+#, python-brace-format
+msgid "Error sending message: {error}"
+msgstr "Erreur lors de l'envoi du message : {error}"
+
+#: othello/network/game_client.py:106
+msgid "Cannot ping: Not connected."
+msgstr "Impossible de cingler : non connecté."
+
+#: othello/network/game_client.py:148
+msgid "Server closed connection."
+msgstr "Connexion fermée du serveur."
+
+#: othello/network/game_client.py:182
+msgid "Connection reset by server."
+msgstr "Connexion réinitialisée par le serveur."
+
+#: othello/network/game_client.py:187
+#, python-brace-format
+msgid "Socket error: {error}"
+msgstr "Erreur de socket : {error}"
+
+#: othello/network/game_client.py:200
+msgid "Network client disconnected."
+msgstr "Client réseau déconnecté."
+
+#: othello/network/game_router.py:97
+#, python-brace-format
+msgid "Invitation: {req} challenged {target}"
+msgstr "Invitation : {req} a contesté {target}"
+
+#: othello/network/game_server.py:78
+#, python-brace-format
+msgid "Failed to start server on port {port}: {error}"
+msgstr "Échec du démarrage du serveur sur le port {port} : {error}"
+
+#: othello/network/game_server.py:97
+#, python-brace-format
+msgid "GameServer started on port {port}. Listening for connections..."
+msgstr "GameServer a démarré sur le port {port}. À l'écoute des connexions..."
+
+#: othello/network/game_server.py:126
+msgid "GameServer stopped."
+msgstr "GameServer s'est arrêté."
+
+#: othello/network/game_server.py:150
+#, python-brace-format
+msgid "Client connected from {addr} as {player_id}"
+msgstr "Client connecté depuis {addr} en tant que {player_id}"
+
+#: othello/network/game_server.py:222
+#, python-brace-format
+msgid "Player {id} is now away."
+msgstr "Le joueur {id} est maintenant absent."
+
+#: othello/network/game_server.py:227
+#, python-brace-format
+msgid "Player {id} is back."
+msgstr "Le joueur {id} est de retour."
+
+#: othello/network/game_server.py:270
+#, python-brace-format
+msgid "Player {id} changed name to {result}"
+msgstr "Le joueur {id} a changé son nom en {result}"
+
+#: othello/network/game_server.py:293
+#, python-brace-format
+msgid "Client {id} disconnected."
+msgstr "Client {id} déconnecté."
+
+#: othello/network/game_server.py:318
+msgid "Disconnecting client due to timeout."
+msgstr "Déconnexion du client en raison d'un délai d'attente."
+
+#: othello/network/game_server.py:330
+#, python-brace-format
+msgid "Player {id} 60s reconnection window expired."
+msgstr "La fenêtre de reconnexion du joueur {id} des années 60 a expiré."
+
+#: othello/network/game_server.py:349
+#, python-brace-format
+msgid "--- {name} Status ---"
+msgstr "--- {name} Statut ---"
+
+#: othello/network/game_server.py:350
+#, python-brace-format
+msgid "Port: {port}"
+msgstr "Port : {port}"
+
+#: othello/network/game_server.py:351
+#, python-brace-format
+msgid "Connected Clients: {num}"
+msgstr "Clients connectés : {num}"
+
+#: othello/network/game_server.py:352
+#, python-brace-format
+msgid "Active Games: {num}"
+msgstr "Jeux actifs : {num}"
+
+#: othello/network/player_manager.py:186
+#, python-brace-format
+msgid ""
+"Removed ghost connection for {player_id} from IP {client_ip} (was in game)"
+msgstr ""
+"Suppression de la connexion fantôme pour {player_id} de l'IP {client_ip} "
+"(était en jeu)"
+
+#: othello/network/player_manager.py:239
+#, python-brace-format
+msgid "Player {target_id} not found or not active."
+msgstr "Le joueur {target_id} est introuvable ou inactif."
+
+#: othello/network/player_manager.py:246
+#, python-brace-format
+msgid ""
+"--- Player Info: {id} ---\n"
+"Status: {status}\n"
+"Score: {wins} Wins, {losses} Losses ({played} Played)"
+msgstr ""
+"--- Informations sur le joueur : {id} ---\n"
+"Statut : {status}\n"
+"Score : {wins} victoires, {losses} défaites ({played} joué)"
+
+#: othello/network/player_manager.py:259
+#: othello/orchestrator/game_session.py:965
+msgid "No players connected."
+msgstr "Aucun joueur connecté."
+
+#: othello/network/player_manager.py:261
+#: othello/orchestrator/game_session.py:983
+msgid "Connected Players:"
+msgstr "Joueurs connectés :"
+
+#: othello/network/player_manager.py:282
+#, python-brace-format
+msgid " (challenged by {req_id})"
+msgstr "(contesté par {req_id})"
+
+#: othello/network/player_manager.py:288
+#, python-brace-format
+msgid " (waiting for {tid})"
+msgstr "(en attendant {tid})"
+
+#: othello/network/player_manager.py:300
+msgid "No stats available."
+msgstr "Aucune statistique disponible."
+
+#: othello/network/player_manager.py:302
+msgid "--- Scoreboard ---"
+msgstr "--- Tableau de bord ---"
+
+#: othello/network/player_manager.py:306
+#, python-brace-format
+msgid "{p_id}: {w} Wins, {l} Losses ({p} Played)"
+msgstr "{p_id} : {w} victoires, {l} défaites ({p} joué)"
+
+#: othello/network/player_manager.py:346
+msgid "This name is already taken by a connected player."
+msgstr "Ce nom est déjà pris par un lecteur connecté."
+
+#: othello/network/player_manager.py:350
+msgid "This name is reserved by a disconnected player."
+msgstr "Ce nom est réservé par un joueur déconnecté."
+
+#: othello/orchestrator/app_orchestrator.py:37
+msgid "Error: Invalid config file. Proceeding with defaults."
+msgstr ""
+"Erreur : fichier de configuration invalide. Procéder aux valeurs par défaut."
+
+#: othello/orchestrator/app_orchestrator.py:58
+#, python-brace-format
+msgid "Game configured for board size: {size}*{size}."
+msgstr "Jeu configuré pour la taille du plateau : {size}*{size}."
+
+#: othello/orchestrator/app_orchestrator.py:110
+msgid "Server running in interactive mode. Type 'quit' to stop."
+msgstr ""
+"Serveur fonctionnant en mode interactif. Tapez « quitter » pour arrêter."
+
+#: othello/orchestrator/app_orchestrator.py:132
+#, python-brace-format
+msgid "Daemon successfully started on port {port} with PID: {pid}"
+msgstr "Le démon a démarré avec succès sur le port {port} avec le PID : {pid}"
+
+#: othello/orchestrator/app_orchestrator.py:138
+#, python-brace-format
+msgid ""
+"Check 'server.log' for output. To stop it, do `pkill -f 'othello -server'` "
+"and if it's not working `kill {pid}`"
+msgstr ""
+"Vérifiez 'server.log' pour la sortie. Pour l'arrêter, faites `pkill -f "
+"'othello -server'` et si ça ne fonctionne pas `kill {pid}`"
+
+#: othello/orchestrator/blitz_controller.py:30
+#, python-brace-format
+msgid "Blitz Mode : {time} minutes per player."
+msgstr "Mode Blitz : {time} minutes par joueur."
+
+#: othello/orchestrator/blitz_controller.py:48
+msgid "Game resumed."
+msgstr "Le jeu a repris."
+
+#: othello/orchestrator/blitz_controller.py:48
+msgid "Game paused."
+msgstr "Jeu en pause."
+
+#: othello/orchestrator/contest_controller.py:28
+msgid "Error : Contest mode needs a file in arg."
+msgstr "Erreur : Le mode Concours nécessite un fichier dans arg."
+
+#: othello/orchestrator/contest_controller.py:40
+#, python-brace-format
+msgid "Error while computing contest move : {error}"
+msgstr "Erreur lors du calcul du déplacement du concours : {error}"
+
+#: othello/orchestrator/game_session.py:78
+#, python-brace-format
+msgid "Could not load {file}. Starting default game."
+msgstr "Impossible de charger {file}. Démarrage du jeu par défaut."
+
+#: othello/orchestrator/game_session.py:163
+#, python-brace-format
+msgid "No Time left! {color} loses. Press enter..."
+msgstr "Il ne reste plus de temps ! {color} perd. Appuyez sur Entrée..."
+
+#: othello/orchestrator/game_session.py:204
+msgid "New game started."
+msgstr "Un nouveau jeu a commencé."
+
+#: othello/orchestrator/game_session.py:233
+#, python-brace-format
+msgid "Game saved successfully to {path}"
+msgstr "Jeu enregistré avec succès dans {path}"
+
+#: othello/orchestrator/game_session.py:240
+#, python-brace-format
+msgid "Error saving game: {error}"
+msgstr "Erreur lors de la sauvegarde du jeu : {error}"
+
+#: othello/orchestrator/game_session.py:292
+#, python-brace-format
+msgid "File not found: {path}"
+msgstr "Fichier introuvable : {path}"
+
+#: othello/orchestrator/game_session.py:298
+msgid "File is empty or invalid."
+msgstr "Le fichier est vide ou invalide."
+
+#: othello/orchestrator/game_session.py:305
+msgid "Invalid file format: Missing [settings] or [game] section."
+msgstr "Format de fichier invalide : section [settings] ou [game] manquante."
+
+#: othello/orchestrator/game_session.py:321
+#, python-brace-format
+msgid "Game loaded from {path}"
+msgstr "Jeu chargé depuis {path}"
+
+#: othello/orchestrator/game_session.py:327
+#, python-brace-format
+msgid "Error loading game: {error}"
+msgstr "Erreur lors du chargement du jeu : {error}"
+
+#: othello/orchestrator/game_session.py:364
+#: othello/orchestrator/game_session.py:408
+#, python-brace-format
+msgid "Loaded board size is {size}."
+msgstr "La taille de la carte chargée est {size}."
+
+#: othello/orchestrator/game_session.py:375
+msgid "Invalid save file: [game] section is empty."
+msgstr "Fichier de sauvegarde invalide : la section [game] est vide."
+
+#: othello/orchestrator/game_session.py:382
+#, python-brace-format
+msgid "Invalid player '{player}' in save file."
+msgstr "Joueur '{player}' invalide dans le fichier de sauvegarde."
+
+#: othello/orchestrator/game_session.py:400
+#, python-brace-format
+msgid "Invalid board size '{size}' in save file."
+msgstr "Taille de carte '{size}' non valide dans le fichier de sauvegarde."
+
+#: othello/orchestrator/game_session.py:418
+#, python-brace-format
+msgid "Inconsistent row length at row {row}."
+msgstr "Longueur de ligne incohérente à la ligne {row}."
+
+#: othello/orchestrator/game_session.py:475
+#, python-brace-format
+msgid "Error: Cannot replay move {move}"
+msgstr "Erreur : Impossible de rejouer le mouvement {move}"
+
+#: othello/orchestrator/game_session.py:483
+#, python-brace-format
+msgid "Critical error reading history: {error}"
+msgstr "Erreur critique lors de la lecture de l'historique : {error}"
+
+#: othello/orchestrator/game_session.py:538
+#, python-brace-format
+msgid "Score : Black(X): {black} | White(O): {white}"
+msgstr "Score : Noir(X): {black} | Blanc (O): {white}"
+
+#: othello/orchestrator/game_session.py:631
+#: othello/orchestrator/game_session.py:831
+msgid "Interrupted. End of the game."
+msgstr "Interrompu. Fin du jeu."
+
+#: othello/orchestrator/game_session.py:638
+#: othello/orchestrator/game_session.py:842
+#: othello/orchestrator/game_session.py:1114
+#, python-brace-format
+msgid "An unexpected error occurred: {error}"
+msgstr "Une erreur inattendue s'est produite : {error}"
+
+#: othello/orchestrator/game_session.py:686
+#, python-brace-format
+msgid "No moves for {player}. Turn passed."
+msgstr "Aucun mouvement pour {player}. Tour passé."
+
+#: othello/orchestrator/game_session.py:877
+#, python-brace-format
+msgid "Invitation sent: {target}"
+msgstr "Invitation envoyée : {target}"
+
+#: othello/orchestrator/game_session.py:898
+#, python-brace-format
+msgid ""
+"*** CHALLENGE RECEIVED ***\n"
+"{msg}"
+msgstr ""
+"*** DÉFI REÇU ***\n"
+"{msg}"
+
+#: othello/orchestrator/game_session.py:902
+msgid "Type 'accept' or 'decline'."
+msgstr "Tapez « accepter » ou « refuser »."
+
+#: othello/orchestrator/game_session.py:909
+msgid "Invitation accepted! Game starting..."
+msgstr "Invitation acceptée ! Le jeu démarre...."
+
+#: othello/orchestrator/game_session.py:945
+#, python-brace-format
+msgid "Game starting! You play as {role}."
+msgstr "Le jeu commence ! Vous jouez le rôle de {role}."
+
+#: othello/orchestrator/game_session.py:1029
+#, python-brace-format
+msgid "Name changed to: {name}"
+msgstr "Le nom a été remplacé par : {name}"
+
+#: othello/orchestrator/game_session.py:1055
+#, python-brace-format
+msgid "Game synchronized! It is {player}'s turn."
+msgstr "Jeu synchronisé ! C'est le tour de {player}."
+
+#: othello/orchestrator/game_session.py:1089
+msgid "Disconnected from network. Returned to local offline mode."
+msgstr "Déconnecté du réseau. Revenu en mode hors ligne local."
+
+#: othello/orchestrator/game_session.py:1176
+msgid "Nothing to undo."
+msgstr "Rien à défaire."
+
+#: othello/orchestrator/game_session.py:1209
+msgid "Nothing to redo."
+msgstr "Rien à refaire."
+
+#: othello/player/ai_player.py:98
+#, python-brace-format
+msgid "Loaded Deep Learning (CNN) model {path}"
+msgstr "Modèle de Deep Learning chargé (CNN) {path}"
+
+#: othello/player/ai_player.py:113
+#, python-brace-format
+msgid "Loaded Machine Learning (RF) model {path}"
+msgstr "Modèle d'apprentissage automatique (RF) chargé {path}"
+
+#: othello/player/ai_player.py:119
+#, python-brace-format
+msgid "Error loading Machine Learning model: {error}"
+msgstr "Erreur lors du chargement du modèle Machine Learning : {error}"
+
+#: othello/player/ai_player.py:143
+#, python-brace-format
+msgid "[DEBUG] number of moves : {moves}"
+msgstr "[DEBUG] nombre de coups : {moves}"
+
+#: othello/player/ai_player.py:147
+#, python-brace-format
+msgid "[DEBUG] depth: {depth}"
+msgstr "Profondeur [DEBUG] : {depth}"
+
+#: othello/player/ai_player.py:405
+#, python-brace-format
+msgid "--- MCTS starting for player {player} with {n} iterations ---"
+msgstr "--- Démarrage du MCTS pour le joueur {player} avec {n} itérations ---"
+
+#: othello/player/ai_player.py:418
+#, python-brace-format
+msgid "Soft stop triggered at iteration {i}."
+msgstr "Arrêt progressif déclenché à l'itération {i}."
+
+#: othello/player/ai_player.py:426
+#, python-brace-format
+msgid "Stopped at iteration {i}."
+msgstr "Arrêté à l'itération {i}."
+
+#: othello/player/ai_player.py:451
+#, python-brace-format
+msgid " - Selection reached depth {depth}"
+msgstr "- La sélection a atteint la profondeur {profondeur}"
+
+#: othello/player/ai_player.py:471
+#, python-brace-format
+msgid " - Expansion: added move {char}{row}"
+msgstr "- Expansion : ajout du mouvement {char}{row}"
+
+#: othello/player/ai_player.py:508
+#, python-brace-format
+msgid " - Simulation (Rollout): outcome winner = {winner}"
+msgstr "- Simulation (Déploiement) : résultat gagnant = {winner}"
+
+#: othello/player/ai_player.py:528
+msgid "Finished"
+msgstr "Fini"
+
+#: othello/player/ai_player.py:530
+msgid "Interrupted by timeout"
+msgstr "Interrompu par timeout"
+
+#: othello/player/ai_player.py:534
+#, python-brace-format
+msgid "--- MCTS Completed ({status} at iteration {i}) ---"
+msgstr "--- MCTS terminé ({status} à l'itération {i}) ---"
+
+#: othello/player/ai_player.py:543
+#, python-brace-format
+msgid " Move {move}: {visits} visits, {wins:.1f} wins"
+msgstr "Move {move} : {visits} visites, {wins:.1f} victoires"
+
+#: othello/player/ai_player.py:554
+#, python-brace-format
+msgid " Selected Move: {move} with {visits} visits\n"
+msgstr "Déplacement sélectionné : {move} avec {visits} visites\n"
+
+#: othello/player/ai_player.py:560
+msgid " No legal moves found, using fallback random move."
+msgstr ""
+"Aucun mouvement légal trouvé, utilisant un mouvement aléatoire de secours."
+
+#: othello/player/ai_player.py:585
+msgid ""
+"bug : prompted to choose a move when no legal moves are possible (that "
+"should not happen!) -> should check for possible moves before prompting "
+msgstr ""
+"bug : invité à choisir un mouvement alors qu'aucun mouvement légal n'est "
+"possible (cela ne devrait pas arriver !) -> devrait vérifier les mouvements "
+"possibles avant de demander"
+
+#: othello/player/network_player.py:34
+#, python-brace-format
+msgid "Waiting for remote player ({color}) to move..."
+msgstr "En attente que le joueur distant ({color}) bouge..."
+
+#: othello/player/network_player.py:47
+#, python-brace-format
+msgid "Remote player chose: {move}"
+msgstr "Le joueur distant a choisi : {move}"
+
+#: othello/player/network_player.py:55
+#, python-brace-format
+msgid "Network error/quit: {msg}"
+msgstr "Erreur réseau/fermeture : {msg}"
+
+#: othello/player/network_player.py:94
+#, python-brace-format
+msgid "Cannot play for remote player ({color})!"
+msgstr "Impossible de jouer pour le lecteur distant ({color}) !"
+
+#: othello/player/network_player.py:100
+msgid "It is not your turn."
+msgstr "Ce n'est pas votre tour."
+
+#: othello/player/search_runner.py:110
+#, python-brace-format
+msgid "[ERROR] search thread crashed: {error}"
+msgstr "[ERREUR] Le fil de recherche est tombé en panne : {error}"
+
+#: othello/player/search_runner.py:139
+msgid "[DEBUG] Timeout reached → cooperative stop signaled"
+msgstr "[DEBUG] Timeout atteint → arrêt coopératif signalé"
+
+#: othello/player/search_runner.py:152
+msgid "[DEBUG] Cooperative stop failed → brutal killing thread"
+msgstr "[DEBUG] Échec de l'arrêt coopératif → fil de discussion brutal"
+
+#: othello/player/search_runner.py:162
+#, python-brace-format
+msgid "[ERROR] kill failed: {error}"
+msgstr "[ERREUR] échec du kill : {error}"
+
+#: othello/player/search_runner.py:171
+msgid "[DEBUG] fallback random move"
+msgstr "[DEBUG] mouvement aléatoire de secours"
+
+#: othello/user_interface/cli_shell.py:60
+msgid "=== Othello CLI Started ==="
+msgstr "=== Othello CLI démarré ==="
+
+#: othello/user_interface/cli_shell.py:117
+#, python-brace-format
+msgid "Error : {message}"
+msgstr "Erreur : {message}"
+
+#: othello/user_interface/othello_window.py:36
+#: othello/user_interface/othello_window.py:196
+#: othello/user_interface/othello_window.py:582
+msgid "Othello"
+msgstr "Othello"
+
+#: othello/user_interface/othello_window.py:73
+msgid "<span font='14' weight='bold'>Black: 2</span>"
+msgstr "<span font='14' weight='bold'>Noir : 2</span>"
+
+#: othello/user_interface/othello_window.py:86
+msgid "<span font='14'>White: 2</span>"
+msgstr "<span font='14'>Blanc : 2</span>"
+
+#: othello/user_interface/othello_window.py:99
+msgid "Drag from here:"
+msgstr "Faites glisser à partir d'ici :"
+
+#: othello/user_interface/othello_window.py:120
+msgid "Welcome to Othello!"
+msgstr "Bienvenue à Othello !"
+
+#: othello/user_interface/othello_window.py:207
+msgid "File"
+msgstr "Déposer"
+
+#: othello/user_interface/othello_window.py:212
+#: othello/user_interface/othello_window.py:1027
+msgid "New Game"
+msgstr "Nouveau jeu"
+
+#: othello/user_interface/othello_window.py:223
+msgid "Load Game"
+msgstr "Charger le jeu"
+
+#: othello/user_interface/othello_window.py:234
+msgid "Save Game"
+msgstr "Sauvegarder la partie"
+
+#: othello/user_interface/othello_window.py:245
+msgid "Configuration"
+msgstr "Configuration"
+
+#: othello/user_interface/othello_window.py:256
+msgid "Info"
+msgstr "Informations"
+
+#: othello/user_interface/othello_window.py:269
+#: othello/user_interface/othello_window.py:1026
+msgid "Quit"
+msgstr "Quitter"
+
+#: othello/user_interface/othello_window.py:281
+msgid "Game"
+msgstr "Jeu"
+
+#: othello/user_interface/othello_window.py:286
+msgid "Undo"
+msgstr "Défaire"
+
+#: othello/user_interface/othello_window.py:298
+msgid "Redo"
+msgstr "Refaire"
+
+#: othello/user_interface/othello_window.py:310
+msgid "Pause"
+msgstr "Pause"
+
+#: othello/user_interface/othello_window.py:322
+msgid "Hint"
+msgstr "Indice"
+
+#: othello/user_interface/othello_window.py:335
+msgid "Network"
+msgstr "Réseau"
+
+#: othello/user_interface/othello_window.py:340
+msgid "Host Server"
+msgstr "Serveur hôte"
+
+#: othello/user_interface/othello_window.py:344
+msgid "Join Server"
+msgstr "Rejoindre le serveur"
+
+#: othello/user_interface/othello_window.py:348
+msgid "Lobby"
+msgstr "Hall d'entrée"
+
+#: othello/user_interface/othello_window.py:352
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: othello/user_interface/othello_window.py:372
+msgid "Tu dois être connecté à un serveur pour ouvrir le Lobby."
+msgstr "Vous devez être connecté à un serveur pour ouvrir le Lobby."
+
+#: othello/user_interface/othello_window.py:465
+msgid "Please choose a file"
+msgstr "Veuillez choisir un fichier"
+
+#: othello/user_interface/othello_window.py:470
+#: othello/user_interface/othello_window.py:608
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: othello/user_interface/othello_window.py:472
+msgid "_Open"
+msgstr "_Ouvrir"
+
+#: othello/user_interface/othello_window.py:519
+msgid "Human vs Human"
+msgstr "Humain contre Humain"
+
+#: othello/user_interface/othello_window.py:522
+msgid "Human (Black) vs AI (White)"
+msgstr "Humain (noir) vs IA (blanc)"
+
+#: othello/user_interface/othello_window.py:525
+msgid "AI (Black) vs Human (White)"
+msgstr "IA (noir) vs humain (blanc)"
+
+#: othello/user_interface/othello_window.py:528
+msgid "AI vs AI"
+msgstr "IA contre IA"
+
+#: othello/user_interface/othello_window.py:606
+msgid "Unsaved Changes"
+msgstr "Modifications non enregistrées"
+
+#: othello/user_interface/othello_window.py:922
+#, python-brace-format
+msgid "<span {fmt}>Black: {score}</span>"
+msgstr "<span {fmt}>Noir : {score}</span>"
+
+#: othello/user_interface/othello_window.py:927
+#, python-brace-format
+msgid "<span {fmt}>White: {score}</span>"
+msgstr "<span {fmt}>Blanc : {score}</span>"
+
+#: othello/user_interface/othello_window.py:989
+msgid "Suggestion"
+msgstr "Suggestion"
+
+#: othello/user_interface/othello_window.py:1004
+msgid "Error"
+msgstr "Erreur"
+
+#: othello/user_interface/othello_window.py:1023
+msgid "Game Over"
+msgstr "Jeu terminé"
+
+#: othello/user_interface/othello_window.py:1054
+msgid "Paused "
+msgstr "En pause"
+
+#: othello/common/command.py:309
+msgid ""
+"\n"
+"Usage: new [-h] [-V] [-v] [-d] [-b] [-t TIME] [-g] [-c] [-s {6,8,10,12}].\n"
+"\n"
+"               [-a [AI]] [--ai-time AI_TIME]\n"
+"               [--ai-mode {minimax,iterative,mcts}]\n"
+"               [--ai-mcts-selection {UCT,ML,DL}]\n"
+"               [--ai-minimax-depth AI_MINIMAX_DEPTH]\n"
+"               [--ai-minimax-scoring AI_MINIMAX_SCORING]\n"
+"               [--server [SERVER]] [--daemon]\n"
+"               [-l {en,fr}]\n"
+"               [file]\n"
+"            Usage in Lobby: new <player_id>\n"
+"\n"
+"Othello Game\n"
+"\n"
+"positional arguments:\n"
+"  file                  File to load (game save or contest file)\n"
+"\n"
+"options:\n"
+"  -h, --help            show this help message and exit\n"
+"  -V, --version         show program's version number and exit\n"
+"  -v, --verbose         Increase verbosity\n"
+"  -d, --debug           Show debug messages\n"
+"  -b, --blitz           Enable blitz mode\n"
+"  -t, --time TIME       Time limit in minutes for blitz mode\n"
+"  -g, --gui             Launch GUI\n"
+"  -c, --contest         Contest mode\n"
+"  -s, --size {6,8,10,12}\n"
+"                        Board size (6, 8, 10 or 12). Default = 8.\n"
+"  -a, --ai [AI]         Enable AI for a color (or all)\n"
+"  --ai-time AI_TIME     AI thinking time in seconds\n"
+"  --ai-mode {minimax,iterative,mcts}\n"
+"                        AI algorithm mode\n"
+"  --ai-mcts-selection {UCT,ML,DL}\n"
+"                        MCTS Selection algorithm\n"
+"  --ai-minimax-depth AI_MINIMAX_DEPTH\n"
+"                        Minimax depth\n"
+"  --ai-minimax-scoring AI_MINIMAX_SCORING\n"
+"                        Minimax scoring function\n"
+"  --server, -S [SERVER]\n"
+"                        Start as server on port\n"
+"  --daemon              Run server in daemon mode\n"
+"  -l, --lang {en,fr}    Choose language\n"
+"\n"
+"Note: When connected to a server, 'new <player_id>' sends a game invitation.\n"
+msgstr 
+"\n"
+"Utilisation : nouveau [-h] [-V] [-v] [-d] [-b] [-t TIME] [-g] [-c] [-s {6,8,10,12}].\n"
+"\n"
+"               [-a [AI]] [--ai-time AI_TIME]\n"
+"               [--ai-mode {minimax, itératif, mcts}]\n"
+"               [--ai-mcts-sélection {UCT,ML,DL}]\n"
+"               [--ai-minimax-profondeur AI_MINIMAX_DEPTH]\n"
+"               [--ai-minimax-scoring AI_MINIMAX_SCORING]\n"
+"               [--server [SERVEUR]] [--démon]\n"
+"               [-l {en,fr}]\n"
+"               [fichier]\n"
+"            Utilisation dans le lobby : nouveau <player_id>\n"
+"\n"
+"Jeu Othello\n"
+"\n"
+"arguments de position :\n"
+"  file Fichier à charger (sauvegarde du jeu ou fichier du concours)\n"
+"\n"
+"choix :\n"
+"  -h, --help afficher ce message d'aide et quitter\n"
+"  -V, --version affiche le numéro de version du programme et quitte\n"
+"  -v, --verbose Augmente la verbosité\n"
+"  -d, --debug Afficher les messages de débogage\n"
+"  -b, --blitz Activer le mode blitz\n"
+"  -t, --time TIME Limite de temps en minutes pour le mode blitz\n"
+"  -g, --gui Lancer l'interface graphique\n"
+"  -c, --contest Mode concours\n"
+"  -s, --taille {6,8,10,12}\n"
+"                        Taille du tableau (6, 8, 10 ou 12). Par défaut = 8.\n"
+"  -a, --ai [AI] Activer l'IA pour une couleur (ou toutes)\n"
+"  --ai-time AI_TIME Temps de réflexion de l'IA en secondes\n"
+"  --ai-mode {minimax, itératif, mcts}\n"
+"                        Mode algorithme IA\n"
+"  --ai-mcts-sélection {UCT,ML,DL}\n"
+"                        Algorithme de sélection MCTS\n"
+"  --ai-minimax-profondeur AI_MINIMAX_DEPTH\n"
+"                        Profondeur minimax\n"
+"  --ai-minimax-scoring AI_MINIMAX_SCORING\n"
+"                        Fonction de notation Minimax\n"
+"  --serveur, -S [SERVEUR]\n"
+"                        Démarrer en tant que serveur sur le port\n"
+"  --daemon Exécuter le serveur en mode démon\n"
+"  -l, --lang {en,fr} Choisir la langue\n"
+"\n"
+"Remarque : Lorsqu'il est connecté à un serveur, 'new <player_id>' envoie une invitation à jouer.\n"
+
+#: othello/common/command.py:457
+#, python-brace-format
+msgid ""
+"\n"
+"--- Help: {topic_key} ---\n"
+"{details}"
+msgstr ""
+"\n"
+"--- Aide : {topic_key} ---\n"
+"{détails}"
+
+#: othello/network/game_client.py:148
+msgid ""
+"\n"
+"Server closed connection."
+msgstr ""
+"\n" 
+"Connexion fermée du serveur."
+
+#: othello/network/game_client.py:182
+msgid ""
+"\n"
+"Connection reset by server."
+msgstr ""
+"\n"
+"Connexion réinitialisée par le serveur."
+
+#: othello/network/game_client.py:187
+#, python-brace-format
+msgid ""
+"\n"
+"Socket error: {error}"
+msgstr ""
+"\n"
+"Erreur de socket : {error}"
+
+#: othello/orchestrator/game_session.py:163
+#, python-brace-format
+msgid ""
+"\n"
+"No Time left! {color} loses. Press enter..."
+msgstr ""
+"\n"
+"Il ne reste plus de temps ! {color} perd. Appuyez sur Entrée..."
+
+#: othello/orchestrator/game_session.py:898
+#, python-brace-format
+msgid ""
+"\n"
+"*** CHALLENGE RECEIVED ***\n"
+"{msg}"
+msgstr ""
+"\n"
+"*** DÉFI REÇU ***\n"
+"{msg}"
+
+#: othello/orchestrator/game_session.py:945
+#, python-brace-format
+msgid ""
+"\n"
+"Game starting! You play as {role}."
+msgstr ""
+"\n"
+"Le jeu commence ! Vous jouez le rôle de {role}."
+
+#: othello/player/ai_player.py:405
+#, python-brace-format
+msgid ""
+"\n"
+"--- MCTS starting for player {player} with {n} iterations ---"
+msgstr ""
+"\n"
+"--- Démarrage du MCTS pour le joueur {player} avec {n} itérations ---"
+
+#: othello/user_interface/othello_window.py:372
+msgid "You must be connected to a server to open a lobby."
+msgstr "Vous devez être connecté à un serveur pour ouvrir un lobby."
+
+msgid "You are not in a game."
+msgstr "Vous n'êtes pas dans une partie."
+
+msgid "AI commands are not available in network mode."
+msgstr "Les commandes IA ne sont pas disponibles en mode réseau."
+
+msgid "Cannot change game rules or AI settings while connected to a server."
+msgstr "Impossible de modifier les règles du jeu ou l'IA en étant connecté au serveur."
+
+msgid "       GAME OVER       "
+msgstr "       Fin terminé       "
