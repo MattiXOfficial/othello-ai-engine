@@ -10,6 +10,7 @@ Team members:
 - Arthur Voisin: Network part implementation
 - Gabriel Ringuet: GUI part
 
+
 ## Highlights
 
 - **Adversarial search**: Minimax with Alpha/Beta pruning, plus Monte Carlo Tree Search (MCTS)
